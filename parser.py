@@ -84,18 +84,27 @@ def load_pattern_from_image(
         Each dict: {"id": int, "x": int, "y": int, "color": str}
         where "color" is "color_0", "color_1", ... matching palette index.
     """
-    img = Image.open(path).convert("RGB")
-    width, height = img.size
+    raw_img = Image.open(path)
+    has_alpha = ("A" in raw_img.getbands())
+    img_rgba = raw_img.convert("RGBA")
+    width, height = img_rgba.size
     try:
-        pixels = list(img.get_flattened_data())
+        pixels = list(img_rgba.get_flattened_data())
     except AttributeError:
-        pixels = list(img.getdata())
+        pixels = list(img_rgba.getdata())
 
     # --- Pass 1: collect all non-background raw colors ---
     raw_fg_colors = []
     for idx, px in enumerate(pixels):
-        if _rgb_distance(px, bg_color) > bg_tolerance:
-            raw_fg_colors.append(px)
+        alpha = px[3]
+        rgb = px[:3]
+        if has_alpha:
+            if alpha < 128:
+                continue
+        else:
+            if _rgb_distance(rgb, bg_color) <= bg_tolerance:
+                continue
+        raw_fg_colors.append(rgb)
 
     if not raw_fg_colors:
         raise ValueError(f"No foreground pixels found in '{path}' (bg_tolerance={bg_tolerance}).")
@@ -107,11 +116,17 @@ def load_pattern_from_image(
     stitches = []
     stitch_id = 0
     for idx, px in enumerate(pixels):
-        if _rgb_distance(px, bg_color) <= bg_tolerance:
-            continue  # background pixel — skip
+        alpha = px[3]
+        rgb = px[:3]
+        if has_alpha:
+            if alpha < 128:
+                continue
+        else:
+            if _rgb_distance(rgb, bg_color) <= bg_tolerance:
+                continue  # background pixel — skip
         x = idx % width
         y = idx // width
-        palette_idx = _assign_palette_index(px, palette)
+        palette_idx = _assign_palette_index(rgb, palette)
         stitches.append({
             "id": stitch_id,
             "x": x,

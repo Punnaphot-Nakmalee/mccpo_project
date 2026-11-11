@@ -1,0 +1,194 @@
+[
+  {
+    "tier": "Tier S (Small)",
+    "filename": "sprite_flower_16x16.png",
+    "N": 116,
+    "K": 4,
+    "algorithms": {
+      "Raster Scan": {
+        "f_thread": 538.0,
+        "f_switch": 36,
+        "cuts": 47,
+        "runtime_sec": 0.0,
+        "thread_savings_vs_human_pct": -172.47
+      },
+      "Greedy NN": {
+        "f_thread": 426.89,
+        "f_switch": 34,
+        "cuts": 34,
+        "runtime_sec": 0.0021,
+        "thread_savings_vs_human_pct": -116.2
+      },
+      "2-Opt TSP": {
+        "f_thread": 423.9,
+        "f_switch": 34,
+        "cuts": 34,
+        "runtime_sec": 0.0579,
+        "thread_savings_vs_human_pct": -114.69
+      },
+      "Human Crafter": {
+        "f_thread": 197.45,
+        "f_switch": 3,
+        "cuts": 8,
+        "runtime_sec": 0.0006,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Pure GA": {
+        "f_thread": 190.1,
+        "f_switch": 3,
+        "cuts": 7,
+        "runtime_sec": 0.442,
+        "thread_savings_vs_human_pct": 3.72
+      },
+      "Pure SA": {
+        "f_thread": 197.45,
+        "f_switch": 3,
+        "cuts": 8,
+        "runtime_sec": 1.5859,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Hybrid Memetic": {
+        "f_thread": 181.28,
+        "f_switch": 4,
+        "cuts": 6,
+        "runtime_sec": 1.0401,
+        "thread_savings_vs_human_pct": 8.19
+      },
+      "ALNS (2024 SOTA)": {
+        "f_thread": 167.87,
+        "f_switch": 3,
+        "cuts": 5,
+        "runtime_sec": 0.5822,
+        "thread_savings_vs_human_pct": 14.98
+      }
+    }
+  },
+  {
+    "tier": "Tier M (Medium)",
+    "filename": "pattern_tapestry_32x32.png",
+    "N": 548,
+    "K": 5,
+    "algorithms": {
+      "Raster Scan": {
+        "f_thread": 2086.0,
+        "f_switch": 138,
+        "cuts": 167,
+        "runtime_sec": 0.0001,
+        "thread_savings_vs_human_pct": -159.44
+      },
+      "Greedy NN": {
+        "f_thread": 1553.18,
+        "f_switch": 103,
+        "cuts": 105,
+        "runtime_sec": 0.05,
+        "thread_savings_vs_human_pct": -93.17
+      },
+      "2-Opt TSP": {
+        "f_thread": 1538.9,
+        "f_switch": 103,
+        "cuts": 103,
+        "runtime_sec": 1.3621,
+        "thread_savings_vs_human_pct": -91.4
+      },
+      "Human Crafter": {
+        "f_thread": 804.04,
+        "f_switch": 4,
+        "cuts": 18,
+        "runtime_sec": 0.0125,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Pure GA": {
+        "f_thread": 804.04,
+        "f_switch": 4,
+        "cuts": 18,
+        "runtime_sec": 1.8469,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Pure SA": {
+        "f_thread": 804.04,
+        "f_switch": 4,
+        "cuts": 18,
+        "runtime_sec": 8.2696,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Hybrid Memetic": {
+        "f_thread": 803.45,
+        "f_switch": 7,
+        "cuts": 18,
+        "runtime_sec": 4.8655,
+        "thread_savings_vs_human_pct": 0.07
+      },
+      "ALNS (2024 SOTA)": {
+        "f_thread": 731.93,
+        "f_switch": 4,
+        "cuts": 9,
+        "runtime_sec": 2.7443,
+        "thread_savings_vs_human_pct": 8.97
+      }
+    }
+  },
+  {
+    "tier": "Tier L (Large)",
+    "filename": "pattern_mandala_48x48.png",
+    "N": 1028,
+    "K": 6,
+    "algorithms": {
+      "Raster Scan": {
+        "f_thread": 3838.0,
+        "f_switch": 292,
+        "cuts": 311,
+        "runtime_sec": 0.0002,
+        "thread_savings_vs_human_pct": -118.0
+      },
+      "Greedy NN": {
+        "f_thread": 3355.24,
+        "f_switch": 247,
+        "cuts": 257,
+        "runtime_sec": 0.1779,
+        "thread_savings_vs_human_pct": -90.58
+      },
+      "2-Opt TSP": {
+        "f_thread": 3390.53,
+        "f_switch": 257,
+        "cuts": 260,
+        "runtime_sec": 37.4939,
+        "thread_savings_vs_human_pct": -92.58
+      },
+      "Human Crafter": {
+        "f_thread": 1760.56,
+        "f_switch": 5,
+        "cuts": 73,
+        "runtime_sec": 0.0346,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Pure GA": {
+        "f_thread": 1760.56,
+        "f_switch": 5,
+        "cuts": 73,
+        "runtime_sec": 3.163,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Pure SA": {
+        "f_thread": 1760.56,
+        "f_switch": 5,
+        "cuts": 73,
+        "runtime_sec": 18.0433,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "Hybrid Memetic": {
+        "f_thread": 1760.56,
+        "f_switch": 5,
+        "cuts": 73,
+        "runtime_sec": 10.0538,
+        "thread_savings_vs_human_pct": 0.0
+      },
+      "ALNS (2024 SOTA)": {
+        "f_thread": 1672.28,
+        "f_switch": 5,
+        "cuts": 66,
+        "runtime_sec": 5.1183,
+        "thread_savings_vs_human_pct": 5.01
+      }
+    }
+  }
+]

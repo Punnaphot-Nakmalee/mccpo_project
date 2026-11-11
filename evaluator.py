@@ -119,3 +119,32 @@ def evaluate_order(
     sequence = [stitches[i] for i in order]
     return evaluate_sequence(sequence, d_max=d_max, c_trim=c_trim)
 
+
+def compute_normalized_objective(
+    f_thread: float,
+    f_switch: int,
+    ref_f_thread: float,
+    ref_f_switch: int,
+    w1: float = 0.5,
+    w2: float = 0.5,
+) -> float:
+    """
+    Computes scale-invariant normalized bi-objective function:
+      J_norm = w1 * (f_thread / ref_f_thread) + w2 * (f_switch / ref_f_switch)
+    where:
+      - w1: weight for thread consumption (default 0.5)
+      - w2: weight for color switches (default 0.5, where w1 + w2 = 1.0)
+      - ref_f_thread: baseline reference thread cost (e.g., Human Crafter / Baseline 2)
+      - ref_f_switch: baseline reference switches (theoretical minimum K - 1)
+      
+    Interpretation:
+      - Human Crafter reference produces J_norm = 1.000.
+      - Any trajectory with J_norm < 1.000 strictly outperforms human crafting.
+    """
+    ref_switch_safe = max(1, ref_f_switch)
+    ref_thread_safe = max(1e-6, ref_f_thread)
+    norm_thread = f_thread / ref_thread_safe
+    norm_switch = f_switch / ref_switch_safe
+    return w1 * norm_thread + w2 * norm_switch
+
+

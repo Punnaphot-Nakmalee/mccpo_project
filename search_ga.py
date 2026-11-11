@@ -136,7 +136,7 @@ class GeneticAlgorithmMCCPO:
         j = self.rng.randint(i + 1, self.N - 1)
         individual[i:j + 1] = reversed(individual[i:j + 1])
 
-    def search(self) -> Dict[str, Any]:
+    def search(self, init_order: Optional[List[int]] = None) -> Dict[str, Any]:
         start_time = time.perf_counter()
 
         if self.N <= 1:
@@ -150,6 +150,9 @@ class GeneticAlgorithmMCCPO:
             }
 
         population = self._initialize_population()
+        if init_order is not None and len(init_order) == self.N:
+            population[0] = list(init_order)
+
         evals = [self._cost(ind) for ind in population]
         costs = [e[0] for e in evals]
 

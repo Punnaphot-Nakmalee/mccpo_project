@@ -20,7 +20,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "nodes_expanded": 647,
-        "runtime_ms": 10.61,
+        "runtime_ms": 9.99,
         "algorithm": "A* Search (Optimal Ground Truth)"
       },
       "sa": {
@@ -42,7 +42,7 @@
         "best_cost": 20.071,
         "iterations": 26180,
         "accepted_moves": 8409,
-        "runtime_ms": 489.19,
+        "runtime_ms": 495.11,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -63,7 +63,7 @@
         "cut_tie_count": 1,
         "best_cost": 20.071,
         "generations": 60,
-        "runtime_ms": 73.44,
+        "runtime_ms": 71.3,
         "algorithm": "Genetic Algorithm"
       },
       "gap_sa_pct": 0.0,
@@ -91,7 +91,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "nodes_expanded": 3173,
-        "runtime_ms": 51.15,
+        "runtime_ms": 52.93,
         "algorithm": "A* Search (Optimal Ground Truth)"
       },
       "sa": {
@@ -115,7 +115,7 @@
         "best_cost": 21.243,
         "iterations": 26180,
         "accepted_moves": 7863,
-        "runtime_ms": 541.83,
+        "runtime_ms": 554.91,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -138,7 +138,7 @@
         "cut_tie_count": 1,
         "best_cost": 21.243,
         "generations": 60,
-        "runtime_ms": 81.23,
+        "runtime_ms": 81.53,
         "algorithm": "Genetic Algorithm"
       },
       "gap_sa_pct": 0.0,
@@ -162,7 +162,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "nodes_expanded": 101,
-        "runtime_ms": 1.63,
+        "runtime_ms": 1.7,
         "algorithm": "A* Search (Optimal Ground Truth)"
       },
       "sa": {
@@ -182,7 +182,7 @@
         "best_cost": 18.485,
         "iterations": 26180,
         "accepted_moves": 8523,
-        "runtime_ms": 399.36,
+        "runtime_ms": 386.72,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -201,7 +201,7 @@
         "cut_tie_count": 1,
         "best_cost": 18.485,
         "generations": 60,
-        "runtime_ms": 64.23,
+        "runtime_ms": 60.87,
         "algorithm": "Genetic Algorithm"
       },
       "gap_sa_pct": 0.0,
@@ -231,7 +231,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "nodes_expanded": 8026,
-        "runtime_ms": 239.63,
+        "runtime_ms": 214.58,
         "algorithm": "A* Search (Optimal Ground Truth)"
       },
       "sa": {
@@ -257,7 +257,7 @@
         "best_cost": 22.828,
         "iterations": 26180,
         "accepted_moves": 7156,
-        "runtime_ms": 650.89,
+        "runtime_ms": 624.59,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -282,7 +282,7 @@
         "cut_tie_count": 1,
         "best_cost": 22.828,
         "generations": 60,
-        "runtime_ms": 95.44,
+        "runtime_ms": 89.15,
         "algorithm": "Genetic Algorithm"
       },
       "gap_sa_pct": 0.0,
@@ -311,7 +311,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "nodes_expanded": 4415,
-        "runtime_ms": 118.38,
+        "runtime_ms": 119.44,
         "algorithm": "A* Search (Optimal Ground Truth)"
       },
       "sa": {
@@ -336,7 +336,7 @@
         "best_cost": 23.828,
         "iterations": 26180,
         "accepted_moves": 6869,
-        "runtime_ms": 583.19,
+        "runtime_ms": 586.96,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -360,7 +360,7 @@
         "cut_tie_count": 1,
         "best_cost": 23.828,
         "generations": 60,
-        "runtime_ms": 91.21,
+        "runtime_ms": 85.17,
         "algorithm": "Genetic Algorithm"
       },
       "gap_sa_pct": 0.0,
@@ -2695,7 +2695,7 @@
         "best_cost": 179.364,
         "iterations": 16340,
         "accepted_moves": 3769,
-        "runtime_ms": 3099.66,
+        "runtime_ms": 3091.89,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -2822,7 +2822,7 @@
         "cut_tie_count": 7,
         "best_cost": 190.685,
         "generations": 80,
-        "runtime_ms": 864.23,
+        "runtime_ms": 864.21,
         "algorithm": "Genetic Algorithm"
       },
       "imprv_sa_pct": 9.16,
@@ -5595,7 +5595,7 @@
         "best_cost": 194.071,
         "iterations": 16340,
         "accepted_moves": 3939,
-        "runtime_ms": 3707.71,
+        "runtime_ms": 3695.2,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -5744,7 +5744,7 @@
         "cut_tie_count": 5,
         "best_cost": 188.136,
         "generations": 80,
-        "runtime_ms": 1040.14,
+        "runtime_ms": 1076.86,
         "algorithm": "Genetic Algorithm"
       },
       "imprv_sa_pct": 0.0,
@@ -8457,7 +8457,7 @@
         "best_cost": 211.685,
         "iterations": 16340,
         "accepted_moves": 3705,
-        "runtime_ms": 3639.49,
+        "runtime_ms": 3647.87,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -8603,7 +8603,7 @@
         "cut_tie_count": 7,
         "best_cost": 211.1,
         "generations": 80,
-        "runtime_ms": 1041.56,
+        "runtime_ms": 1052.36,
         "algorithm": "Genetic Algorithm"
       },
       "imprv_sa_pct": 0.0,
@@ -12016,7 +12016,7 @@
         "best_cost": 294.371,
         "iterations": 16340,
         "accepted_moves": 4405,
-        "runtime_ms": 4546.37,
+        "runtime_ms": 5177.43,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -12197,7 +12197,7 @@
         "cut_tie_count": 11,
         "best_cost": 294.371,
         "generations": 80,
-        "runtime_ms": 1304.62,
+        "runtime_ms": 1579.43,
         "algorithm": "Genetic Algorithm"
       },
       "imprv_sa_pct": 0.0,
@@ -14530,7 +14530,7 @@
         "best_cost": 161.698,
         "iterations": 16340,
         "accepted_moves": 3771,
-        "runtime_ms": 3319.49,
+        "runtime_ms": 3556.52,
         "algorithm": "Simulated Annealing"
       },
       "ga": {
@@ -14657,7 +14657,7 @@
         "cut_tie_count": 4,
         "best_cost": 161.698,
         "generations": 80,
-        "runtime_ms": 965.88,
+        "runtime_ms": 924.54,
         "algorithm": "Genetic Algorithm"
       },
       "imprv_sa_pct": 0.0,

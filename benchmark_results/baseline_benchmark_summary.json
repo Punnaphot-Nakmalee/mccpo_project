@@ -10,7 +10,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 15.708,
-        "runtime_ms": 0.06,
+        "runtime_ms": 0.07,
         "order": [
           8,
           9,
@@ -67,7 +67,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 11.657,
-        "runtime_ms": 0.08,
+        "runtime_ms": 0.09,
         "order": [
           0,
           1,
@@ -94,7 +94,7 @@
         "f_switch": 4,
         "cut_tie_count": 5,
         "carried_dist": 8.472,
-        "runtime_ms": 0.03,
+        "runtime_ms": 0.05,
         "order": [
           6,
           7,
@@ -115,7 +115,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 11.243,
-        "runtime_ms": 0.05,
+        "runtime_ms": 0.06,
         "order": [
           6,
           7,
@@ -136,7 +136,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 11.243,
-        "runtime_ms": 0.05,
+        "runtime_ms": 0.06,
         "order": [
           0,
           1,
@@ -157,7 +157,7 @@
         "f_switch": 2,
         "cut_tie_count": 2,
         "carried_dist": 9.828,
-        "runtime_ms": 0.12,
+        "runtime_ms": 0.14,
         "order": [
           6,
           7,
@@ -203,7 +203,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 8.485,
-        "runtime_ms": 0.03,
+        "runtime_ms": 0.04,
         "order": [
           0,
           2,
@@ -308,7 +308,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 12.828,
-        "runtime_ms": 0.07,
+        "runtime_ms": 0.06,
         "order": [
           0,
           1,
@@ -331,7 +331,7 @@
         "f_switch": 1,
         "cut_tie_count": 1,
         "carried_dist": 12.828,
-        "runtime_ms": 0.15,
+        "runtime_ms": 0.14,
         "order": [
           0,
           1,
@@ -384,7 +384,7 @@
         "f_switch": 1,
         "cut_tie_count": 2,
         "carried_dist": 12.828,
-        "runtime_ms": 0.05,
+        "runtime_ms": 0.06,
         "order": [
           6,
           7,
@@ -428,7 +428,7 @@
         "f_switch": 2,
         "cut_tie_count": 2,
         "carried_dist": 10.828,
-        "runtime_ms": 0.12,
+        "runtime_ms": 0.13,
         "order": [
           0,
           1,
@@ -583,7 +583,7 @@
         "f_switch": 3,
         "cut_tie_count": 8,
         "carried_dist": 117.449,
-        "runtime_ms": 0.89,
+        "runtime_ms": 0.94,
         "order": [
           0,
           1,
@@ -708,7 +708,7 @@
         "f_switch": 34,
         "cut_tie_count": 34,
         "carried_dist": 86.893,
-        "runtime_ms": 2.24,
+        "runtime_ms": 2.4,
         "order": [
           0,
           1,
@@ -833,7 +833,7 @@
         "f_switch": 34,
         "cut_tie_count": 34,
         "carried_dist": 83.899,
-        "runtime_ms": 59.67,
+        "runtime_ms": 61.91,
         "order": [
           0,
           1,
@@ -966,7 +966,7 @@
         "f_switch": 8,
         "cut_tie_count": 23,
         "carried_dist": 126.0,
-        "runtime_ms": 0.23,
+        "runtime_ms": 0.27,
         "order": [
           0,
           1,
@@ -1113,7 +1113,7 @@
         "f_switch": 1,
         "cut_tie_count": 6,
         "carried_dist": 134.071,
-        "runtime_ms": 3.12,
+        "runtime_ms": 3.18,
         "order": [
           0,
           1,
@@ -1260,7 +1260,7 @@
         "f_switch": 4,
         "cut_tie_count": 7,
         "carried_dist": 133.893,
-        "runtime_ms": 3.41,
+        "runtime_ms": 3.53,
         "order": [
           0,
           1,
@@ -1407,7 +1407,7 @@
         "f_switch": 4,
         "cut_tie_count": 4,
         "carried_dist": 139.071,
-        "runtime_ms": 59.88,
+        "runtime_ms": 68.75,
         "order": [
           0,
           1,
@@ -1562,7 +1562,7 @@
         "f_switch": 40,
         "cut_tie_count": 57,
         "carried_dist": 81.0,
-        "runtime_ms": 0.23,
+        "runtime_ms": 0.26,
         "order": [
           0,
           1,
@@ -1706,7 +1706,7 @@
         "f_switch": 2,
         "cut_tie_count": 7,
         "carried_dist": 141.685,
-        "runtime_ms": 1.51,
+        "runtime_ms": 1.55,
         "order": [
           0,
           1,
@@ -1850,7 +1850,7 @@
         "f_switch": 52,
         "cut_tie_count": 56,
         "carried_dist": 81.828,
-        "runtime_ms": 3.28,
+        "runtime_ms": 3.51,
         "order": [
           0,
           1,
@@ -1994,7 +1994,7 @@
         "f_switch": 53,
         "cut_tie_count": 53,
         "carried_dist": 85.556,
-        "runtime_ms": 112.76,
+        "runtime_ms": 124.87,
         "order": [
           28,
           18,
@@ -2146,7 +2146,7 @@
         "f_switch": 66,
         "cut_tie_count": 79,
         "carried_dist": 91.236,
-        "runtime_ms": 0.32,
+        "runtime_ms": 0.38,
         "order": [
           0,
           1,
@@ -2325,7 +2325,7 @@
         "f_switch": 3,
         "cut_tie_count": 11,
         "carried_dist": 184.371,
-        "runtime_ms": 2.03,
+        "runtime_ms": 2.1,
         "order": [
           0,
           1,
@@ -2504,7 +2504,7 @@
         "f_switch": 66,
         "cut_tie_count": 66,
         "carried_dist": 107.136,
-        "runtime_ms": 4.98,
+        "runtime_ms": 5.31,
         "order": [
           0,
           1,
@@ -2683,7 +2683,7 @@
         "f_switch": 66,
         "cut_tie_count": 66,
         "carried_dist": 107.136,
-        "runtime_ms": 19.13,
+        "runtime_ms": 20.79,
         "order": [
           0,
           1,
@@ -2870,7 +2870,7 @@
         "f_switch": 34,
         "cut_tie_count": 47,
         "carried_dist": 69.236,
-        "runtime_ms": 0.2,
+        "runtime_ms": 0.24,
         "order": [
           0,
           1,
@@ -2995,7 +2995,7 @@
         "f_switch": 2,
         "cut_tie_count": 4,
         "carried_dist": 121.698,
-        "runtime_ms": 1.26,
+        "runtime_ms": 1.71,
         "order": [
           3,
           4,
@@ -3120,7 +3120,7 @@
         "f_switch": 37,
         "cut_tie_count": 38,
         "carried_dist": 83.136,
-        "runtime_ms": 2.49,
+        "runtime_ms": 3.26,
         "order": [
           0,
           1,
@@ -3245,7 +3245,7 @@
         "f_switch": 35,
         "cut_tie_count": 35,
         "carried_dist": 86.2,
-        "runtime_ms": 75.39,
+        "runtime_ms": 89.79,
         "order": [
           0,
           1,
